@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    background: whitesmoke;
+
+}
+
+li, a, button {
+    
+    font-weight: 50px;
+    color: black;
+    text-decoration: none;
+    margin: 3px;
+    font-size: small;
+    background: white;
+    border-color: white;
+    
+    
+    
+}
+
+ 
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background: white;
+    
+}
+
+.Home .head .logo {
+    margin-right: auto;
+    
+
+}
+    
+
+.Home .head img {
+    width: 30%;
+    margin-right: auto;
+    
+    
+
+}
+
+.Home .head .nav-link { 
+    background: white;
+    
+
+}
+
+
+
+
+
+.Home .head li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0;
+    justify-content: flex-end;
+    font-size: medium;
+    
+    
+    
+}
+
+.Home .head li a:hover {
+    color: greenyellow;
+}
+
+.Home .head button{
+    padding: 9px 25px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px;
+}
+    

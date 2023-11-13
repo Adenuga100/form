@@ -1,0 +1,228 @@
+body{
+    background:whitesmoke;
+}
+
+li, a, button {
+    
+    font-weight: 50px;
+    color: black;
+    text-decoration: none;
+    margin: 3px;
+    font-size: small;
+    background: white;
+    border-color: white;
+    
+    
+    
+}
+
+ 
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background: white;
+    
+}
+
+.Home .head .logo {
+    margin-right: auto;
+    
+
+}
+    
+
+.Home .head img {
+    width: 30%;
+    margin-right: auto;
+    
+    
+
+}
+
+.Home .head .nav-link { 
+    background: white;
+    
+
+}
+
+
+
+
+
+.Home .head li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0;
+    justify-content: flex-end;
+    font-size: medium;
+    
+    
+    
+}
+
+.Home .head li a:hover {
+    color: greenyellow;
+}
+
+.Home .head button{
+    padding: 9px 25px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px;
+}
+
+.Join-form {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.Join-form form {
+    margin:20px ;
+    padding: 10%;
+    width: 800px;
+    
+    
+    
+
+}
+
+
+.Join-form form a input[type="button"] {
+    background: white;
+    padding: 2%;
+    margin-bottom: 10%;
+    border-color: white;
+    width: 350px; 
+    border: 20%;
+    cursor: pointer;
+    
+}
+
+.Join-form form .Register {
+    background: white;
+    padding: 10%;
+    margin-top: -7%;
+    width: 68%;
+    height: 65%;
+    border-color: white;
+    
+}
+
+
+
+.Join-form form input[type="text"], [type="password"], [type="Phone-number"] {
+  display: block;
+  padding: 2%;
+  width: 100%;
+  border-color: white;
+  background: white;
+  position: relative;
+
+}
+
+.Join-form form select {
+    display: block;
+    padding: 2%;
+    width: 105%;
+    border-color: aliceblue;
+    background: white;
+
+}
+
+.Join-form form b {
+    font-size: small;
+  
+}
+
+.Join-form form b a{
+    color: rgb(126, 229, 126);
+}
+
+.Join-form form input[value="Create Account"] {
+    background: rgb(116, 205, 116);
+    cursor: pointer;
+    width: 30%;
+    height: 9%;
+    margin-top: 5%;
+    border-color: rgb(116, 205, 116);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.Join-form form small{
+    margin: 10%;
+    
+    padding: 5%;
+}
+
+.Join-form form small a {
+    color:rgb(126, 229, 126)
+}
+
+.Join-form form ion-icon[name="person-add-outline"]{
+    position: absolute;
+    top: 258px;
+    right: 72%;
+    transform: translate(-50%);
+    font-size: 14px;
+    
+}
+
+.Join-form form ion-icon[name="archive-outline"]{
+  position: absolute;
+  top: 258px;
+  left:  55%;
+  transform: translate(-50%);
+  font-size: 14px;
+  color: rgb(116, 205, 116);
+}
+
+.Join-form form .Register ion-icon[name="person-outline"]{
+    position: absolute;
+    top: 71%;
+    right: 31%;
+    transform: translate(-50%);
+    font-size: 14px;
+}
+
+.Join-form form .Register ion-icon[name="key-outline"]{
+    position: absolute;
+    right: 31%;
+    top: 92%;
+    transform: translate(-50%);
+    font-size: 14px;
+}
+
+.Join-form form .Register ion-icon[name="call-outline"]{
+    position: absolute;
+    bottom: -26%;
+    right: 31%;
+    transform: translate(-50%);
+    font-size: 14px;
+}
+
+.Join-form form .Register ion-icon[name="mail-outline"]{
+    position:absolute;
+    right: 31%;
+    bottom: 16%;
+    transform: translate(-50%);
+    font-size: 14px;
+}
+.Join-form form a input[value="I am an Employer"]{
+    color: rgb(116, 205, 116);;
+}
+
+.Join-form form .Register ion-icon[name="briefcase-outline"]{
+  position: absolute;
+  right: 31%;
+  bottom: -5%;
+  transform: translate(-50%);
+  font-size: 14px;
+}

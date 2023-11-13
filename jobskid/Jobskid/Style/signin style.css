@@ -1,0 +1,177 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    background: whitesmoke;
+}
+
+li, a, button {
+    
+    font-weight: 60px;
+    color: black;
+    text-decoration: none;
+    margin: 6px;
+    font-size: small;
+    background: white;
+    border-color: white;
+    
+    
+    
+}
+
+ 
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background: white;
+    
+}
+
+.Home .head .logo {
+    margin-right: 40%;
+    
+
+}
+    
+
+.Home .head img {
+    width: 30%;
+    margin-right: auto;
+    
+    
+
+}
+
+.Home .head .nav-link { 
+    background: white;
+    
+
+}
+
+
+
+
+
+.Home .head li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0;
+    justify-content: flex-end;
+    font-size: medium;
+    
+    
+    
+}
+
+.Home .head li a:hover {
+    color: greenyellow;
+}
+
+.Home .head button{
+    padding: 9px 25px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 12px;
+}
+
+.form-element { 
+    display: flex;
+    justify-content: center;    
+}
+
+.form-element form {
+    position: relative;
+    margin: 5%;
+    padding: 10%;
+    border: 10%;
+    width: 30%;
+    height: 120px;
+    border-radius: 10%;
+    border-color: white;
+    border:white;
+    background: white;
+    background-size: 50%, 50%;
+    
+}
+
+.form-element form .element{
+    margin-top: -25%;
+    margin-left: -15%;
+    width: 120%;
+    height: 100%;
+    
+}
+
+
+
+.form-element form  input[type="text"] {
+   padding: 2%;
+   display: block;
+
+   width: 110%;
+   height: 10%;
+   
+}
+
+.form-element form  input[type="password"] {
+    padding: 2%;
+   display: block;
+   
+   width: 110%;
+   height: 10%;
+
+}
+
+.form-element form  input[type="button"] {
+    background-color: rgb(116, 205, 116);
+    cursor: pointer;
+    color: #fff;
+    border-width: 40%;
+    width: 25%;
+    height: 25%;
+}
+
+.form-element form  a{
+    font-size: small;
+    color: rgb(64, 64, 193);
+}
+
+.form-element form small {
+    padding: 30px;
+}
+
+.form-element form small a {
+    color: rgb(126, 229, 126);
+    justify-content: left;
+}
+
+.form-element form  input[placeholder]{
+    font-size: smaller;
+    color: black;
+}
+
+.form-element form ion-icon[name="people-outline"] {
+    position: absolute;
+    right: 7%;
+    top: 34%;
+    transform: translate(-50%);
+    font-size: 18px;
+    
+}
+
+.form-element form ion-icon[name="key-outline"]{
+    position: absolute;
+    right: 7%;
+    top: 53%;
+    transform: translate(-50%);
+    font-size: 18px;
+}
+
+    
+
+
+
+
